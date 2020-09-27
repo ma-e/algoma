@@ -1,5 +1,5 @@
 {
-  "name": "quicksort",
+  "name": "algoma",
   "version": "1.0.0",
   "description": "Sorting array items using quicksort algorithm",
   "main": "index.js",

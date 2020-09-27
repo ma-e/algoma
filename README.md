@@ -7,9 +7,9 @@ An way to sort numbers without using extra space(quick sort).
 
 Then...
 ```
-import { quicksort } from 'algoma';
+const algorithm = require('algoma');
 
 list = [2,2,1,4]
-quicksort(list, 0, list.length)
+console.log(algorithm.quicksort(list, 0, list.length-1))
 ```
 
