@@ -1,6 +1,6 @@
 # What is this?
 
-An way to sort an array of numbers without using extra space(quick sort).
+An way to sort numbers without using extra space(quick sort).
 
 # Installation
 `npm i algoma --save`
