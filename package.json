@@ -1,5 +1,5 @@
 {
-  "name": "quicksortma",
+  "name": "quicksort",
   "version": "1.0.0",
   "description": "Sorting array items using quicksort algorithm",
   "main": "index.js",
