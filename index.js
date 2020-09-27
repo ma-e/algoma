@@ -43,18 +43,19 @@ function partition(items, l, r) {
  * @param number r - right pointer
  * @return array items - a sorted arr
  */
-function quicksort(items,l,r) {
+function quicksorted(items,l,r) {
     var index;
     if(items.length > 1) {
         index = partition(items,l,r);
         if (l < index-1) {
-            quicksort(items,l,index-1);
+            quicksorted(items,l,index-1);
         }
         if (index < r) {
-            quicksort(items,index,r);
+            quicksorted(items,index,r);
         }
     }
-    return items;
+    return items
 }
 
-module.exports.quicksort = quicksort;
+module.exports.quicksorted = quicksorted;
+
