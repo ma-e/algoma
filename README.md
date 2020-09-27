@@ -1,11 +1,11 @@
-# What is this?
+# What is this
 
 Sort numbers use sorting algorithm Quick Sort.
 
 # Installation
 `npm i algoma --save`
 
-Then...
+# Example
 ```
 const algorithm = require('algoma');
 
